@@ -1,5 +1,29 @@
 import styled from"styled-components"
 export const Container = styled.div`
+.cont{
+ width: 65vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+div{
+  display: flex;
+
+}
+
+div ul{
+
+  display: flex;
+  align-items: center;
+ 
+  height: 20px;
+  gap: 1rem;
+}
+
+.azure{
+  display: flex;
+  gap: 1rem;
+}
 .cart__button {
   font-size: 1.5rem;
   display: flex;

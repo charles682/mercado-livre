@@ -15,9 +15,10 @@ body{
   background:${({theme}) => theme.COLORS.backgroundColor};
 }
 
-.container{
-  max-width: 1100px;
-  margin: 0 auto;
+
+li{
+  list-style: none;
 }
+
 
 `

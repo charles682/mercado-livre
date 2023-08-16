@@ -4,14 +4,15 @@ export const Container = styled.div`
   background-color: #fff159;
   position: fixed;
   width: 100%;
-  height: 12%;
+  height: 14%;
   z-index: 1;
 }
 
-.header > div {
+.header .container{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-direction: column;
   padding: 20px;
 }
 `
