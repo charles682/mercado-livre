@@ -19,6 +19,8 @@ O projeto possui as seguintes funcionalidades:
 # Remoção de Produtos do Carrinho:
  No carrinho de compras, cada produto adicionado é exibido com a opção de remover. Os usuários podem remover produtos individualmente, o que atualiza automaticamente o total a pagar.
 
+ (https://github.com/charles682/mercado-livre/blob/main/public/ml-video.gif)
+
 # Tecnologias Utilizadas
 As seguintes tecnologias foram utilizadas no desenvolvimento deste projeto:
 
@@ -30,4 +32,4 @@ CSS3: A linguagem de estilo usada para estilizar a interface do usuário e torn�
 
 API do Mercado Livre: Esta API é consumida para obter dados de produtos, como nome, imagem e preço, para exibição na aplicação.
 
-[![Baixar vídeo do projeto com o audio](https://github.com/charles682/mercado-livre/blob/main/public/ml-video.gif)
+
