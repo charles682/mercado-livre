@@ -15,7 +15,7 @@ O projeto possui as seguintes funcionalidades:
 
 # Adição de Produtos ao Carrinho:
  Ao clicar no botão "Adicionar ao Carrinho" em um produto, ele é adicionado ao carrinho de compras. A quantidade de produtos no carrinho é atualizada e exibida na interface.
-
+ <img src="https://github.com/charles682/mercado-livre/blob/main/public/Screenshot ML-Cart.png">
 # Remoção de Produtos do Carrinho:
  No carrinho de compras, cada produto adicionado é exibido com a opção de remover. Os usuários podem remover produtos individualmente, o que atualiza automaticamente o total a pagar.
 
