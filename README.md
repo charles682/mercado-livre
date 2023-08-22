@@ -11,9 +11,11 @@ O projeto possui as seguintes funcionalidades:
 # Busca de Produtos:
  Os usuários podem pesquisar produtos utilizando palavras-chave na barra de busca. A aplicação consome a API do Mercado Livre para obter os resultados correspondentes e exibi-los na tela.
 
+ <img src="https://github.com/charles682/mercado-livre/blob/main/public/Screenshot ML.png">
+
 # Adição de Produtos ao Carrinho:
  Ao clicar no botão "Adicionar ao Carrinho" em um produto, ele é adicionado ao carrinho de compras. A quantidade de produtos no carrinho é atualizada e exibida na interface.
-
+ <img src="https://github.com/charles682/mercado-livre/blob/main/public/Screenshot ML-Cart.png">
 # Remoção de Produtos do Carrinho:
  No carrinho de compras, cada produto adicionado é exibido com a opção de remover. Os usuários podem remover produtos individualmente, o que atualiza automaticamente o total a pagar.
 
@@ -27,3 +29,5 @@ HTML5: A linguagem de marcação utilizada para estruturar o conteúdo da aplica
 CSS3: A linguagem de estilo usada para estilizar a interface do usuário e torná-la visualmente atraente.
 
 API do Mercado Livre: Esta API é consumida para obter dados de produtos, como nome, imagem e preço, para exibição na aplicação.
+
+[![Baixar vídeo do projeto com o audio](https://github.com/charles682/mercado-livre/blob/main/public/ml.mp4)
