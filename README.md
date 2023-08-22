@@ -30,4 +30,4 @@ CSS3: A linguagem de estilo usada para estilizar a interface do usuário e torn�
 
 API do Mercado Livre: Esta API é consumida para obter dados de produtos, como nome, imagem e preço, para exibição na aplicação.
 
-[![Baixar vídeo do projeto com o audio](https://github.com/charles682/mercado-livre/blob/main/public/ml.mp4)
+[![Baixar vídeo do projeto com o audio](https://github.com/charles682/mercado-livre/blob/main/public/ml-video.gif)
