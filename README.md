@@ -11,6 +11,8 @@ O projeto possui as seguintes funcionalidades:
 # Busca de Produtos:
  Os usuários podem pesquisar produtos utilizando palavras-chave na barra de busca. A aplicação consome a API do Mercado Livre para obter os resultados correspondentes e exibi-los na tela.
 
+ <img src="https://github.com/charles682/mercado-livre/blob/main/public/Screenshot ML.png">
+
 # Adição de Produtos ao Carrinho:
  Ao clicar no botão "Adicionar ao Carrinho" em um produto, ele é adicionado ao carrinho de compras. A quantidade de produtos no carrinho é atualizada e exibida na interface.
 
