@@ -17,6 +17,7 @@
 .cart-items {
   flex-grow: 1;
   overflow: auto;
+  margin-top: 4rem;
 }
 
 .cart-resume {
