@@ -27,3 +27,5 @@ HTML5: A linguagem de marcação utilizada para estruturar o conteúdo da aplica
 CSS3: A linguagem de estilo usada para estilizar a interface do usuário e torná-la visualmente atraente.
 
 API do Mercado Livre: Esta API é consumida para obter dados de produtos, como nome, imagem e preço, para exibição na aplicação.
+
+[![Baixar vídeo do projeto com o audio](https://github.com/charles682/mercado-livre/blob/main/public/ml.mp4)
