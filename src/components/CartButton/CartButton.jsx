@@ -26,7 +26,7 @@ function CartButton() {
         </div>
 
         <div className='create-count'>
-        <li>Crie s aua conta</li>
+        <li>Crie sua conta</li>
               <li>Entre</li>
               <li>Compras</li>
           <button
