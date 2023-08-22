@@ -1,22 +1,21 @@
-import CartButton from "../CartButton/CartButton";
-import SearchBar from "../SearchBar/Search";
-import {Container} from "./index";
+import CartButton from '../CartButton/CartButton';
+import SearchBar from '../SearchBar/SearchBar';
 
+import './Header.css';
 
 function Header() {
-  return ( 
-    <Container>
+  return (
+   
       <header className="header">
-        <div className="container">
-       
-          <SearchBar/>
-          <CartButton/>
-       
-       
+        <div>
+          <SearchBar />
+          <CartButton />
         </div>
-      </header>
-    </Container>
-   );
+
+    </header>
+   
+     
+  );
 }
 
 export default Header;

@@ -1,13 +1,20 @@
-import {Container} from './index'
-import {BsFillCartCheckFill} from 'react-icons/bs'
+import { useContext } from 'react';
+import { AiOutlineShoppingCart } from 'react-icons/ai';
+
+import './CartButton.css';
+import AppContext from '../../context/AppContext';
+
 function CartButton() {
-  return ( 
-    <Container>
-      <div className='cont'>
-        <div>
+
+  const { cartItems, isCartVisible, setIsCartVisible } = useContext(AppContext);
+
+  return (
+    <div className='cont'>
+       <div>
           <ul>
-          <li>Categorias
-          </li>
+            <details>
+            <summary>Categorias</summary>
+            </details>
           <li>Ofertas do dia</li>
           <li>Histórico</li>
           <li>Supermercado
@@ -17,21 +24,25 @@ function CartButton() {
           <li>Contato</li>
          </ul>
         </div>
-         
-         <div className='azure'>
-            <li>Crie s aua conta</li>
+
+        <div className='create-count'>
+        <li>Crie s aua conta</li>
               <li>Entre</li>
               <li>Compras</li>
-              <button type='button' className='cart__button'>
-              <BsFillCartCheckFill/>
-              <span className='cart-status'>1</span>
-              </button>
-         </div>
-      </div>
-    
- 
-    </Container>
-   );
+          <button
+            type="button"
+            className="cart__button"
+            onClick={ () => setIsCartVisible(!isCartVisible) }
+          >
+            <AiOutlineShoppingCart />
+            { cartItems.length > 0 && <span className="cart-status">{cartItems.length}</span> }
+          </button>
+
+        </div>
+
+    </div>
+
+  );
 }
 
 export default CartButton;

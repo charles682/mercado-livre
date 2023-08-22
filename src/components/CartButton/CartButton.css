@@ -1,29 +1,20 @@
-import styled from"styled-components"
-export const Container = styled.div`
 .cont{
- width: 65vw;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-div{
-  display: flex;
+  width: 65vw;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+ }
 
-}
 
-div ul{
-
-  display: flex;
-  align-items: center;
+ div ul, .create-count{
+   margin-top: 1rem;
+   display: flex;
+   align-items: center;
+   list-style: none;
+   height: 20px;
+   gap: 1rem;
+ }
  
-  height: 20px;
-  gap: 1rem;
-}
-
-.azure{
-  display: flex;
-  gap: 1rem;
-}
 .cart__button {
   font-size: 1.5rem;
   display: flex;
@@ -52,4 +43,4 @@ div ul{
   display: flex;
   align-items: center;
   justify-content: center;
-}`
+}

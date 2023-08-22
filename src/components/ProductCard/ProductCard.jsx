@@ -1,22 +1,23 @@
-import { Container } from "./index";
+import { useContext } from 'react';
 import propTypes from 'prop-types';
 import { BsFillCartPlusFill } from 'react-icons/bs';
-import  { useContext } from 'react';
 
+import './ProductCard.css';
 import formatCurrency from '../../utils/formatCurrency';
-import AppContext from '../context/AppContext';
+import AppContext from '../../context/AppContext';
 
-function ProductCard({data}) {
+function ProductCard({ data }) {
   const { title, thumbnail, price } = data;
 
   const { cartItems, setCartItems } = useContext(AppContext);
 
   const handleAddCart = () => setCartItems([ ...cartItems, data ]);
- 
-  return ( 
-    <Container>
-        <section className="product-card">
-        <img
+
+  return (
+
+    <section className="product-card">
+      
+      <img
         src={thumbnail.replace(/\w\.jpg/gi, 'W.jpg')}
         alt="product"
         className="card__image"
@@ -34,9 +35,9 @@ function ProductCard({data}) {
       >
         <BsFillCartPlusFill />
       </button>
-        </section>
-    </Container>
-   );
+    </section>
+
+  );
 }
 
 export default ProductCard;

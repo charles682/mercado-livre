@@ -1,5 +1,3 @@
-import styled from"styled-components"
-export const Container = styled.div`
 .loading {
   font-size: 2rem;
   margin: 200px auto 0;
@@ -15,4 +13,4 @@ export const Container = styled.div`
   to {
     transform: rotate(360deg);
   }
-}`
+}

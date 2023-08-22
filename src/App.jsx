@@ -1,18 +1,18 @@
-import Header from "./components/Header/header"
-import Products from "./components/Products/Products"
-import Provider from './components/context/Provider'
+import React from 'react';
+import Header from './components/Header/Header';
+import Products from './components/Products/Products';
+import Provider from './context/Provider';
+import Cart from './components/Cart/Cart';
+
 function App() {
 
-
   return (
-   
     <Provider>
-      <Header/>
-      <Products/>
-
+      <Header />
+      <Products />
+      <Cart />
     </Provider>
-   
-  )
+  );
 }
 
-export default App
+export default App;

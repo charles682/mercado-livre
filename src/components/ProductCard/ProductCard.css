@@ -1,5 +1,4 @@
-import styled from"styled-components"
-export const Container = styled.div`
+
 .product-card {
   width: 100%;
   max-width: 300px;
@@ -9,6 +8,7 @@ export const Container = styled.div`
   cursor: pointer;
   margin: 0 auto;
   position: relative;
+  margin-top: 2rem;
 }
 
 .card__image {
@@ -58,4 +58,4 @@ export const Container = styled.div`
 
 .product-card:hover .button__add-cart {
   display: flex;
-}`
+}
